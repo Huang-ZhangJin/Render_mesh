@@ -8,4 +8,4 @@ Render the `bunny` in `example_data`
 ```
 the render result is stored in `example_data/`, shown as following:
 
-![test](example_data/bunny_rot.mp4)
+![test](example_data/bunny.gif)
