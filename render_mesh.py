@@ -14,6 +14,7 @@ import open3d as o3d
 from scipy.interpolate import interp1d
 from scipy.spatial.transform import Rotation, Slerp
 from tqdm import tqdm
+from render_utils import check_ffmpeg_installed
 
 from camera_paths import (
     generate_ellipse_path,
@@ -23,6 +24,7 @@ from camera_paths import (
 )
 from cameras import Cameras
 
+check_ffmpeg_installed()
 
 listfiles = lambda root : \
             [os.path.join(base, f) 
